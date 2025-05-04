@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Diagnosis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <h1 class="title">AI-Powered Health Diagnosis</h1>
+            <p class="subheading">Upload an image for diagnosis</p>
+
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="image" name="file" accept="image/*" required>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+            <div id="result" class="result">
+                <!-- Result will be displayed here -->
+            </div>
+
+            <div class="footer">
+                <p>Powered by AI | Made by <a href="https://www.linkedin.com/in/titas-debnath-63836b227/">Titas Debnath</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
